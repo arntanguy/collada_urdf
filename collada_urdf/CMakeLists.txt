@@ -182,7 +182,7 @@ install(
   TARGETS collada_urdf urdf_to_collada collada_to_urdf
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
-  RUNTIME DESTINATION bin
+  RUNTIME DESTINATION lib/${PROJECT_NAME}
 )
 
 install(DIRECTORY include/
