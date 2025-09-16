@@ -22,7 +22,7 @@
   <url type="repository">https://github.com/ros/collada_urdf</url>
   <url type="bugtracker">https://github.com/ros/collada_urdf/issues</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
   <build_export_depend>urdf</build_export_depend>
   <build_export_depend>urdf_parser_plugin</build_export_depend>
