@@ -152,6 +152,7 @@ target_link_libraries(collada_to_urdf
   collada_urdf
   Eigen3::Eigen
   Boost::program_options
+  Boost::filesystem
 )
 message(STATUS "Using assimp include dirs: ${ASSIMP_INCLUDE_DIRS}")
 target_include_directories(collada_to_urdf PRIVATE
